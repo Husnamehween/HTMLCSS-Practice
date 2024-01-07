@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter divs</title>
+  <style>
+    /*Twitter text box*/
+    .twitter_textbox {
+      height: 50px;
+      width: 450px;
+      border-style: none;
+      border-width: 0.5px;
+      margin: 50px;
+      padding: 20px;
+      vertical-align: middle;
+      box-shadow: 1px 1px 6px 0px grey;
+      border-radius: 5px;
+    }
+
+    .profile-picture {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 100%;
+      margin-right: 5px;
+
+
+    }
+
+    .text-box {
+      font-size: 18px;
+      border: none;
+      width: 300px;
+      vertical-align: middle;
+      margin-top: -38px;
+    }
+
+    .tweet-button {
+      background-color: rgb(29, 155, 240);
+      color: white;
+      border: none;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      vertical-align: middle;
+      margin-top: -38px;
+    }
+
+    /*profile div*/
+    p {
+      font-family: Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .profile {
+      width: 200px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      margin: 20px;
+      display: inline-block;
+      box-shadow: 1px 1px 6px 0px grey;
+    }
+
+    .profile-picture1 {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 12px;
+    }
+
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-left: 8px;
+      margin-bottom: 4px;
+    }
+
+    .mutual-friends {
+      color: rgb(100, 100, 100);
+      margin-left: 8px;
+      margin-bottom: 12px;
+
+    }
+
+    .add-friend-button {
+      background-color: rgb(24, 119, 242);
+      color: white;
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 4px;
+      font-size: 16px;
+      margin-left: 8px;
+      margin-bottom: 10px;
+    }
+
+    .profile-img,
+    .profile-info {
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Twitter text box-->
+  <div class="twitter_textbox">
+    <img class="profile-picture"
+      src="https://media.wired.com/photos/64fb7cf8d82792c821d19b6e/master/w_2560%2Cc_limit/Sundar-Pichai-Big-Interview-110.jpg">
+    <input type="text" class="text-box" placeholder="What's happening?">
+    <button class="tweet-button">
+      Tweet
+    </button>
+  </div>
+  <!--PROFILE DIVS-->
+  <div class="profile">
+    <div class="profile-img">
+      <img
+        src="https://media.wired.com/photos/64fb7cf8d82792c821d19b6e/master/w_2560%2Cc_limit/Sundar-Pichai-Big-Interview-110.jpg"
+        class="profile-picture1" alt="profile">
+    </div>
+
+    <div class="profile-info">
+      <p class="name">
+        Oliver
+      </p>
+      <p class="mutual-friends">2 mutual friends</p>
+      <button class="add-friend-button">Add Friend</button>
+    </div>
+  </div>
+
+  <div class="profile">
+    <div class="profile-img">
+      <img
+        src="https://media.wired.com/photos/64fb7cf8d82792c821d19b6e/master/w_2560%2Cc_limit/Sundar-Pichai-Big-Interview-110.jpg"
+        class="profile-picture1" alt="profile">
+    </div>
+
+    <div class="profile-info">
+      <p class="name">
+        Mimi
+      </p>
+      <p class="mutual-friends">3 mutual friends</p>
+      <button class="add-friend-button">Add Friend</button>
+    </div>
+  </div>
+
+  <div class="profile">
+    <div class="profile-img">
+      <img
+        src="https://media.wired.com/photos/64fb7cf8d82792c821d19b6e/master/w_2560%2Cc_limit/Sundar-Pichai-Big-Interview-110.jpg"
+        class="profile-picture1" alt="profile">
+    </div>
+
+    <div class="profile-info">
+      <p class="name">
+        Rex
+      </p>
+      <p class="mutual-friends">1 mutual friends</p>
+      <button class="add-friend-button">Add Friend</button>
+    </div>
+  </div>
+
+  </div>
+</body>
+
+</html>

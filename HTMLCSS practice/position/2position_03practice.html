@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Position Relative and absolute Excercises 3</title>
+    <link rel="stylesheet" href="/position/02positonDesign.css">
+    <!--Imagine excercise is a video ad in the bottom-right corner. Add a timestamp in the corner like this design-->
+    <style>
+        .box {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .close-button {
+            position: absolute;
+            top: -23px;
+            left: -23px;
+        }
+
+        .timestamp {
+            height: 20px;
+            width: 35px;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: black;
+            color: white;
+            padding: 2px 6px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="close-button">X</div>
+        <div class="timestamp">0:29</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>nested flexbox challenge excercise1</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 405px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px 0px grey;
+
+
+        }
+
+        .box {
+            color: grey;
+            padding: 2px 15px;
+            padding-bottom: 2px;
+            display: flex;
+            font-size: 15px;
+        }
+
+        .header {
+            padding: 11px 1px;
+        }
+
+        .box-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-img {
+            height: 50px;
+            border-radius: 50px;
+            padding: 6px;
+        }
+
+        .box-2 {
+            display: flex;
+            flex-direction: column;
+            flex: 1
+        }
+
+        .innerbox2 {
+            display: flex;
+            justify-content: space-between;
+            flex: 1;
+            height: 5px;
+            padding: 4px;
+
+        }
+
+        .titlebox {
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            justify-content: start;
+            color: black;
+            font-size: large;
+            font-weight: bold;
+
+        }
+
+        .subtitlebox {
+            display: flex;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+
+        }
+
+        .timebox {
+            width: 70px;
+            font-size: smaller;
+            font-size: 13px;
+            padding-left: 0px;
+        }
+
+        .description {
+            margin-top: 0;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box">
+            <div class="header"> ALL INBOXES</div>
+        </div>
+        <!--box1-->
+        <div class="box">
+
+            <div class="box-1">
+                <img src="/html_cssspictures/channel1.jpg" alt="" class="profile-img">
+            </div>
+            <div class="box-2">
+                <div class="innerbox2">
+                    <div class=" titlebox">
+                        <div class="title">Chewy Promotions</div>
+                        <div class="subtitlebox"> Biggest sales of the year!</div>
+                    </div>
+
+                    <div class="timebox">4:58 PM</div>
+                </div>
+                <div class="innerbox2">
+                    <p class="description">Hey there! We're writing to tell you about our...</p>
+                </div>
+            </div>
+        </div>
+        <!--box2-->
+        <div class="box">
+
+            <div class="box-1">
+                <img src="/html_cssspictures/channel2.jpg" alt="" class="profile-img">
+            </div>
+            <div class="box-2">
+                <div class="innerbox2">
+                    <div class=" titlebox">
+                        <div class="title">Best Buy</div>
+                        <div class="subtitlebox">Your Best Buy eReceipt</div>
+                    </div>
+
+                    <div class="timebox">12:32 PM</div>
+                </div>
+                <div class="innerbox2">
+                    <p class="description">Thank you for shopping at Best Buy, here is...</p>
+                </div>
+            </div>
+        </div>
+
+        <!--box3-->
+        <div class="box">
+
+            <div class="box-1">
+                <img src="/html_cssspictures/channel4.jpg" alt="" class="profile-img">
+            </div>
+            <div class="box-2">
+                <div class="innerbox2">
+                    <div class=" titlebox">
+                        <div class="title">Netflix</div>
+                        <div class="subtitlebox"> Here's what's coming soon to Netflix</div>
+                    </div>
+
+                    <div class="timebox">9:00 AM</div>
+                </div>
+                <div class="innerbox2">
+                    <p class="description">Brand new movies and shows, old favorites...</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

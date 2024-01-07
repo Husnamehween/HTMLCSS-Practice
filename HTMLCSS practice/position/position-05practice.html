@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title> Position Practice Challenge Excercise 1 </title>
+    <!--Use a combination of position:fixed and flexbox to create this header from facebook and stick it to the top of the page-->
+    <style>
+        .header {
+            display: flex;
+            flex-direction: row;
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 80px;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: rgb(228, 228, 228);
+
+        }
+
+        .left-section {
+            display: flex;
+
+            flex: 1;
+            align-items: center;
+        }
+
+        .right-section {
+
+            width: 340px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+
+        img {
+
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            border-radius: 50px;
+            padding: 6px;
+            margin-left: 100px;
+
+        }
+
+        .name {
+
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        button {
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-left: 8px;
+            margin-bottom: 10px;
+        }
+
+        .add-friend-button {
+            background-color: rgb(24, 119, 242);
+            color: white;
+
+        }
+
+        .message {
+            background-color: rgb(216, 217, 218);
+            color: black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="left-section"><img src="/html_cssspictures/cat.jpg" alt="">
+            <div class="name">Oliver Cat</div>
+        </div>
+
+
+        <div class="right-section">
+            <button class="add-friend-button">Add Friend</button>
+            <button class="message">Message</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

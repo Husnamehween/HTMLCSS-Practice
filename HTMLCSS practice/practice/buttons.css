@@ -1,0 +1,205 @@
+.back-button {
+  height: 40px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.next-button {
+  height: 40px;
+  width: 70px;
+  cursor: pointer;
+
+}
+
+a {
+  padding: 2px;
+  margin: 5px;
+}
+
+.stretch-button {
+  height: 40px;
+  width: 100px;
+  background-color: rgba(0, 128, 0, 0.856);
+  color: white;
+  border: none;
+  font-size: large;
+  vertical-align: top;
+  transition: 1.2s;
+  cursor: pointer;
+}
+
+.stretch-button:hover {
+  height: 70px;
+  width: 150px
+}
+
+.shadow-button {
+  height: 40px;
+  width: 100px;
+  background-color: rgba(0, 128, 0, 0.856);
+  color: white;
+  box-shadow: 4px 4px 2px grey;
+  border: none;
+  font-size: large;
+  vertical-align: top;
+  cursor: pointer;
+
+}
+
+.shadow-button:active {
+  opacity: 0.2;
+  padding: 20px;
+}
+
+/*practice questions 1*/
+
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: aliceblue;
+  border: none;
+  height: 36px;
+  width: 100px;
+  border: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.5;
+
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(41, 118, 211);
+  ;
+  height: 36px;
+  width: 60px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 1s,
+    color 1s;
+
+}
+
+.join-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+
+.join-button:active {
+  opacity: 0.7;
+}
+
+.tweet-button {
+  background-color: rgb(0, 162, 255);
+  border: none;
+  height: 36px;
+  width: 74px;
+  color: white;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+
+
+}
+
+/*practice questions 2*/
+.request-button {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.5s;
+
+}
+
+.request-button:hover {
+  opacity: 0.6;
+}
+
+
+.addtocart-button {
+  background-color: rgb(255, 216, 20);
+  height: 40px;
+  border-radius: 20px;
+  width: 200px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.5s;
+}
+
+.addtocart-button:hover {
+  background-color: rgb(235, 208, 73);
+}
+
+.signup-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+  border: none;
+  transition: box-shadow 1s;
+
+}
+
+.signup-button:hover {
+  box-shadow: 2px 2px 0px gray;
+}
+
+.buynow-button {
+  background-color: rgb(255, 164, 28);
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.heading {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.price {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p {
+  font-size: large;
+
+}
+
+.getstarted-button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  margin: 10px;
+  height: 45px;
+  font-size: 18px;
+  width: 150px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
